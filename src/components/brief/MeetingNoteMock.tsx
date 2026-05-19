@@ -116,11 +116,12 @@ export function MeetingNoteMock({
               ) : null}
             </AnimatePresence>
             <Bullet>Quick check-in</Bullet>
-            <Bullet>Q2 numbers walkthrough</Bullet>
+            <Bullet>Head-of-sales candidate — your read</Bullet>
             <Bullet>Q3 launch status</Bullet>
             <SubBullet>Eng capacity update</SubBullet>
             <SubBullet>Customer fix follow-through</SubBullet>
-            <Bullet>Anything Nakul wants to flag</Bullet>
+            <Bullet>ARR ramp + round timing</Bullet>
+            <Bullet>Anything Nakul is hearing</Bullet>
           </ul>
         </div>
 

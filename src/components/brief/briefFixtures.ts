@@ -85,9 +85,12 @@ const meeting1: Meeting = {
   attendees: [
     {
       name: "Nakul Mandan",
-      // Lead investor (Lightspeed Series A). The "owes him Q2 numbers"
-      // framing fits a quarterly investor cadence.
-      line: "GP, Lightspeed · last met two weeks ago · you owe him the Q2 numbers",
+      // Lead investor (Lightspeed Series A). The "open thread" Chris owes
+      // Nakul a response on is the head-of-sales candidate Nakul put
+      // forward two weeks ago — more specific and Brief-tonal than "Q2
+      // numbers", and the kind of thing a CEO heads-down on launch would
+      // forget about.
+      line: "GP, Lightspeed · last met two weeks ago · waiting on your read of his head-of-sales candidate",
       initials: "N",
       tone: "blue",
     },
@@ -102,7 +105,7 @@ const meeting1: Meeting = {
       summary: [
         "Q3 eng capacity dropped from 2 to 1. Nikola pulled Maya onto the Linear-customer fix Monday after the escalation.",
         "The fix landed Tuesday morning. The regression hasn't come back in 36 hours.",
-        "So: 2 engineers and an open fix became 1 engineer and a shipped fix. Nakul will ask about the date.",
+        "So: 2 engineers and an open fix became 1 engineer and a shipped fix. The date should hold — Nakul will ask what that means for the ARR ramp.",
       ],
       citations: [
         {
@@ -142,6 +145,14 @@ const meeting2: Meeting = {
       line: "CTO · pushing back on the metered-tier eng cost",
       initials: "N",
       tone: "green",
+    },
+    {
+      name: "Sam",
+      // Sam Stephenson — co-founder. His angle on pricing is positioning
+      // (brand / indie-user trust), distinct from Nikola's eng-cost angle.
+      line: "co-founder · worried the metered tier reads as enterprise-only to indie users",
+      initials: "S",
+      tone: "blue",
     },
     {
       name: "Maya",
@@ -212,6 +223,14 @@ const meeting3: Meeting = {
       tone: "green",
     },
     {
+      name: "Sam",
+      // Sam Stephenson — co-founder. The classic founder concern in a
+      // roadmap meeting: too many themes, not enough depth.
+      line: "co-founder · pushing for fewer themes, deeper bets",
+      initials: "S",
+      tone: "blue",
+    },
+    {
       name: "Maya",
       line: "growth · pushing the H2 retention bet",
       initials: "M",
@@ -227,13 +246,14 @@ const meeting3: Meeting = {
       name: "Alex",
       line: "design · cross-cutting on both threads",
       initials: "A",
-      tone: "blue",
+      tone: "neutral",
     },
     {
       name: "Elliot Nash",
-      // Granola's recruiter — sits in roadmap meetings to map headcount
-      // to plan, not to drive feature direction.
-      line: "recruiter · sizing H2 headcount against the plan",
+      // Granola's recruiter — sits in this room because the H2 plan
+      // depends on the PM hires landing. The open thread is concrete:
+      // Chris owes him a read on the finalists.
+      line: "recruiter · waiting on your feedback on the PM finalists",
       initials: "E",
       tone: "neutral",
     },
